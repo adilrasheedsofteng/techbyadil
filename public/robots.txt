@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /scratch/
+
+Sitemap: https://techbyadil.xyz/sitemap.xml

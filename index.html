@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Adil Rasheed — Software Developer & Digital Product Engineer | TechByAdil</title>
+    <meta name="title" content="Adil Rasheed — Software Developer & Digital Product Engineer | TechByAdil" />
+    <meta name="description" content="Independent software developer building high-reliability mobile apps, modern web applications, and digital products for startups and growing businesses worldwide." />
+    <meta name="author" content="Adil Rasheed" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0b0c10" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+
+    <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://techbyadil.xyz/" />
+    <meta property="og:title" content="Adil Rasheed — Software Developer | TechByAdil" />
+    <meta property="og:description" content="Turning ideas into digital products that work. Custom mobile apps, modern web applications, and backend systems." />
+    <meta property="og:image" content="https://techbyadil.xyz/og-preview.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://techbyadil.xyz/" />
+    <meta property="twitter:title" content="Adil Rasheed — Software Developer | TechByAdil" />
+    <meta property="twitter:description" content="Turning ideas into digital products that work. Custom mobile apps, modern web applications, and backend systems." />
+    <meta property="twitter:image" content="https://techbyadil.xyz/og-preview.png" />
+
+
+    <!-- Security Headers / Directives via Meta -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <!-- Favicon & Icons (SVG vector for crisp rendering at any resolution) -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <!-- Preconnect to Google Fonts for optimum performance and zero layout shifts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Default Dark Theme Init Script (Guarantees zero flash, defaults to dark) -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('techbyadil_theme_v2');
+          if (saved === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-[#fafaf9] text-[#1c1917] antialiased selection:bg-blue-600 selection:text-white dark:bg-[#0b0c10] dark:text-[#f3f4f8] transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
